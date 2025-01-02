@@ -1,0 +1,22 @@
+{
+  "name": "web-shop",
+  "version": "1.0.0",
+  "description": "A scuba gear webshop with front-end and basic back-end setup.",
+  "main": "src/server.js",
+  "scripts": {
+    "cypress:chrome": "cypress run --browser chrome",
+    "cypress:firefox": "cypress run --browser firefox",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "cypress": "^13.16.1",
+    "nodemon": "^2.0.22"
+  }
+}

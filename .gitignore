@@ -1,0 +1,9 @@
+node_modules/
+.env
+.DS_Store
+cypress/videos/
+cypress/screenshots/
+cypress/fixtures/
+package-lock.json
+*.log
+coverage/
