@@ -31,4 +31,4 @@ jobs:
 
       # Step 4: Run Cypress tests in headless mode
       - name: Run Cypress tests
-        run: npx cypress run
+        run: npm run cypress:run
