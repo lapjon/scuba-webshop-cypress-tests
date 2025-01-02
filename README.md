@@ -116,8 +116,8 @@ TC5: Add multiple items from Welcome page and Gear page and verify cart counter 
 
 **Responsiveness**
 
-TC1: Responsiveness - Hero Section           
-TC2: Responsiveness - Navigation Bar      
+TC1: Responsiveness - Hero Section  
+TC2: Responsiveness - Navigation Bar    
 TC3: Responsiveness - Gear Grid Page Layout
 
 
@@ -139,8 +139,8 @@ TC1: Verify navigation links and flows.
 
 * Login
 
-TC1: Verify can log in successfully with valid credentials     
-TC2: Verify user should fail to log in with invalid credentials           
+TC1: Verify can log in successfully with valid credentials   
+TC2: Verify user should fail to log in with invalid credentials    
 TC3: Verify user can log out successfully
 TC4: Verify user cannot log in with non-existing user
 TC5: Verify error message for empty password field
@@ -152,9 +152,9 @@ TC7: Verify redirect link from Login page to Signup page for unsigned user
 TC1: Verify successful sign up with valid credentials
 TC2: Verify error should display for invalid email format
 TC3: Verify error should display for invalid password: No uppercase letters
-TC4: Verify error should display for invalid password: No numbers                  
+TC4: Verify error should display for invalid password: No numbers 
 TC5: Verify error should display for invalid password: No letters
-TC6: Verify error should display for invalid password: Less than 8 characters            
+TC6: Verify error should display for invalid password: Less than 8 characters  
 TC7: Verify error should display for mismatched passwords
 TC8: Verify multiple submissions should be prevented
 TC9: Verify error error message should display for email already in use
