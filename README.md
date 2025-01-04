@@ -76,114 +76,114 @@ Key Test Scenarios
 
 * Unsigned User:
 
-TC1: Load home page and verify title, header, and footer.
-TC2: Verify featured items and Add to Basket buttons.
-TC3: Validate the Browse Our Gear CTA functionality.
-TC4: Verify empty cart counter.
+- TC1: Load home page and verify title, header, and footer.
+- TC2: Verify featured items and Add to Basket buttons.
+- TC3: Validate the Browse Our Gear CTA functionality.
+- TC4: Verify empty cart counter.
 
 * Signed-In User:
 
-TC1: Add items to the cart and verify the cart counter.
+- TC1: Add items to the cart and verify the cart counter.
 
 **Gear Page**
 
 * Unsigned User:
 
-TC1: Verify item count on the Gear page.
-TC2: Confirm alert messages for Add to Cart functionality.
+- TC1: Verify item count on the Gear page.
+- TC2: Confirm alert messages for Add to Cart functionality.
 
 * Signed-In User:
 
-TC1: Add items and verify basket updates.
+- TC1: Add items and verify basket updates.
 
 **Cart Page**
 
 * Unsigned User:
 
-TC1: Verify Add to Cart from Welcome page.
-TC2: Add and remove items from the cart.
-TC3: Verify cart persistence after page reload.
-TC4: Confirm Proceed to Checkout redirects to the login page.
-TC5: Verify unsigned user is prompted to log in when proceeding to checkout.
+- TC1: Verify Add to Cart from Welcome page.
+- TC2: Add and remove items from the cart.
+- TC3: Verify cart persistence after page reload.
+- TC4: Confirm Proceed to Checkout redirects to the login page.
+- TC5: Verify unsigned user is prompted to log in when proceeding to checkout.
 
 * Signed-In User:
 
-TC1: Add multiple items and verify cart counter and total amount.
-TC2: Remove items and validate updates.
-TC3: Verify quantities and pricing for multiple instances of the same item.
-TC4: Empty cart and verify cart counter and total amount.
-TC5: Add multiple items from Welcome page and Gear page and verify cart counter and total amount.
+- TC1: Add multiple items and verify cart counter and total amount.
+- TC2: Remove items and validate updates.
+- TC3: Verify quantities and pricing for multiple instances of the same item.
+- TC4: Empty cart and verify cart counter and total amount.
+- TC5: Add multiple items from Welcome page and Gear page and verify cart counter and total amount.
 
 **Responsiveness**
 
-TC1: Responsiveness - Hero Section  
-TC2: Responsiveness - Navigation Bar    
-TC3: Responsiveness - Gear Grid Page Layout
+- TC1: Responsiveness - Hero Section  
+- TC2: Responsiveness - Navigation Bar    
+- TC3: Responsiveness - Gear Grid Page Layout
 
 
 **Navigation**
 
 * Unsigned User Flows:
 
-TC1: Verify page links as unsiged user
-TC2: Navigate to Gear page when clicking link.
-TC3: Navigate to About page when clicking link.
-TC4: Navigate to Login page when clicking link.
-TC5: Navigate to Cart page when clicking link.
+- TC1: Verify page links as unsiged user
+- TC2: Navigate to Gear page when clicking link.
+- TC3: Navigate to About page when clicking link.
+- TC4: Navigate to Login page when clicking link.
+- TC5: Navigate to Cart page when clicking link.
 
 * Signed-In User Flows:
 
-TC1: Verify navigation links and flows.
+- TC1: Verify navigation links and flows.
 
 **Authentication**
 
 * Login
 
-TC1: Verify can log in successfully with valid credentials   
-TC2: Verify user should fail to log in with invalid credentials    
-TC3: Verify user can log out successfully
-TC4: Verify user cannot log in with non-existing user
-TC5: Verify error message for empty password field
-TC6: Verify error message for empty email field
-TC7: Verify redirect link from Login page to Signup page for unsigned user
+- TC1: Verify can log in successfully with valid credentials   
+- TC2: Verify user should fail to log in with invalid credentials    
+- TC3: Verify user can log out successfully
+- TC4: Verify user cannot log in with non-existing user
+- TC5: Verify error message for empty password field
+- TC6: Verify error message for empty email field
+- TC7: Verify redirect link from Login page to Signup page for unsigned user
 
 * Signup 
 
-TC1: Verify successful sign up with valid credentials
-TC2: Verify error should display for invalid email format
-TC3: Verify error should display for invalid password: No uppercase letters
-TC4: Verify error should display for invalid password: No numbers 
-TC5: Verify error should display for invalid password: No letters
-TC6: Verify error should display for invalid password: Less than 8 characters  
-TC7: Verify error should display for mismatched passwords
-TC8: Verify multiple submissions should be prevented
-TC9: Verify error error message should display for email already in use
+- TC1: Verify successful sign up with valid credentials
+- TC2: Verify error should display for invalid email format
+- TC3: Verify error should display for invalid password: No uppercase letters
+- TC4: Verify error should display for invalid password: No numbers 
+- TC5: Verify error should display for invalid password: No letters
+- TC6: Verify error should display for invalid password: Less than 8 characters  
+- TC7: Verify error should display for mismatched passwords
+- TC8: Verify multiple submissions should be prevented
+- TC9: Verify error error message should display for email already in use
 
 
 **Checkout Flow**
 
-TC1: Error message should display for missing field: email
-TC2: Error message should display for invalid email format
-TC3: Error message should display for numbers in first name field
-TC4: Error message should display for missing first name 
-TC5: Error message should display for numbers in last name field
-TC6: Error message should display for missing last name 
-TC7: Error message should display for too short address
-TC8: Error message should display for missing address
-TC9: Error message should display for missing country
-TC10: Error message should display for missing city
-TC11: Error message should display for too short postcode
-TC12: Error message should display for too long postcode
-TC13: Error message should display for numbers in card holder name field
-TC14: Error message should display for special characters in card holder name field
-TC15: Error message should display for letters in card number field
-TC16: Error message should display for invalid card number
-TC17: Error message should display for past expiry date
-TC18: Error message should display for invalid cvv number
+- TC1: Error message should display for missing field: email
+- TC2: Error message should display for invalid email format
+- TC3: Error message should display for numbers in first name field
+- TC4: Error message should display for missing first name 
+- TC5: Error message should display for numbers in last name field
+- TC6: Error message should display for missing last name 
+- TC7: Error message should display for too short address
+- TC8: Error message should display for missing address
+- TC9: Error message should display for missing country
+- TC10: Error message should display for missing city
+- TC11: Error message should display for too short postcode
+- TC12: Error message should display for too long postcode
+- TC13: Error message should display for numbers in card holder name field
+- TC14: Error message should display for special characters in card holder name field
+- TC15: Error message should display for letters in card number field
+- TC16: Error message should display for invalid card number
+- TC17: Error message should display for past expiry date
+- TC18: Error message should display for invalid cvv number
 
 **End-to-End Flow**
 
-Full E2E Happy Flow: Browse gear, add items, register, log in, checkout, and complete order.
+- Full E2E Happy Flow: Browse gear, add items, register, log in, checkout, and complete order.
 
 
 License
