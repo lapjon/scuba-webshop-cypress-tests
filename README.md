@@ -74,31 +74,31 @@ Key Test Scenarios
 
 **Homepage**
 
-* Unsigned User:
+Unsigned User:
 
 - TC1: Load home page and verify title, header, and footer.
 - TC2: Verify featured items and Add to Basket buttons.
 - TC3: Validate the Browse Our Gear CTA functionality.
 - TC4: Verify empty cart counter.
 
-* Signed-In User:
+Signed-In User:
 
 - TC1: Add items to the cart and verify the cart counter.
 
 **Gear Page**
 
-* Unsigned User:
+Unsigned User:
 
 - TC1: Verify item count on the Gear page.
 - TC2: Confirm alert messages for Add to Cart functionality.
 
-* Signed-In User:
+Signed-In User:
 
 - TC1: Add items and verify basket updates.
 
 **Cart Page**
 
-* Unsigned User:
+Unsigned User:
 
 - TC1: Verify Add to Cart from Welcome page.
 - TC2: Add and remove items from the cart.
@@ -106,7 +106,7 @@ Key Test Scenarios
 - TC4: Confirm Proceed to Checkout redirects to the login page.
 - TC5: Verify unsigned user is prompted to log in when proceeding to checkout.
 
-* Signed-In User:
+Signed-In User:
 
 - TC1: Add multiple items and verify cart counter and total amount.
 - TC2: Remove items and validate updates.
@@ -123,7 +123,7 @@ Key Test Scenarios
 
 **Navigation**
 
-* Unsigned User Flows:
+Unsigned User Flows:
 
 - TC1: Verify page links as unsiged user
 - TC2: Navigate to Gear page when clicking link.
@@ -131,13 +131,13 @@ Key Test Scenarios
 - TC4: Navigate to Login page when clicking link.
 - TC5: Navigate to Cart page when clicking link.
 
-* Signed-In User Flows:
+Signed-In User Flows:
 
 - TC1: Verify navigation links and flows.
 
 **Authentication**
 
-* Login
+Login:
 
 - TC1: Verify can log in successfully with valid credentials   
 - TC2: Verify user should fail to log in with invalid credentials    
@@ -147,7 +147,7 @@ Key Test Scenarios
 - TC6: Verify error message for empty email field
 - TC7: Verify redirect link from Login page to Signup page for unsigned user
 
-* Signup 
+Signup:
 
 - TC1: Verify successful sign up with valid credentials
 - TC2: Verify error should display for invalid email format
