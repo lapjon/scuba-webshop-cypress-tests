@@ -12,11 +12,11 @@ Features:
 
 Technologies Used:
 
-Frontend: HTML, CSS, Vanilla JavaScript
-Backend: Node.js, Express.js
-Database: SQLite
-Testing: Cypress
-CI/CD: GitHub Actions
+- Frontend: HTML, CSS, Vanilla JavaScript
+- Backend: Node.js, Express.js
+- Database: SQLite
+- Testing: Cypress
+- CI/CD: GitHub Actions
 
 Project Structure:
 
